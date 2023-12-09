@@ -11,7 +11,7 @@ export default function ServiceCard() {
         { name: 'Ask in Any Language', icon: <BiCheck /> },
       ];
   return (
-    <div className="flex flex-row justify-center items-center pt-4 gap-4 max-w-[100] sm:w-[30vw] animate-slide">
+    <div className="flex flex-row justify-center items-center pt-4 gap-4 max-w-[100%] animate-slide">
       {services.map((service, index) => (
         <Service key={index} serviceName={service.name} icon={service.icon} />
       ))}    

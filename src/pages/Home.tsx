@@ -15,6 +15,7 @@ export default function Home() {
       <div className=''>
         <Hero />
       </div>   
+      <div className='h-[120vh] bg-red-500'>fasd;j</div>
     </div>
   )
 }

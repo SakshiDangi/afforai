@@ -1,6 +1,7 @@
 import React from 'react'
 import AppSumo from './AppSumo'
 import ServiceCard from './ServiceCard'
+import Button from '../ui/Button'
 
 export default function Dashboard() {
 
@@ -17,6 +18,10 @@ export default function Dashboard() {
       </div>
       <div>
         <ServiceCard />
+      </div>
+      <div className='mt-5'>
+        <Button className='mr-7'>Try for Free</Button>
+        <Button variant={'secondary'}>View pricing</Button>
       </div>
     </div>
   )
