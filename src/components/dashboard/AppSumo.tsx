@@ -1,4 +1,3 @@
-import Button from '../ui/Button'
 import appsumo from '../../images/appsumo.png'
 import { RiArrowDropRightLine } from "react-icons/ri";
 

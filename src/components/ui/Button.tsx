@@ -17,16 +17,17 @@ export default function Button({ children, className, variant, size, ...props }:
   );
 }
 
-const buttonVariants = cva("rounded-3xl", {
+const buttonVariants = cva("rounded-xl", {
   variants: {
     variant: {
-      primary: "opacity-100 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%",
-      secondary: "black border-2 bg-white",
+      // primary: "opacity-100 bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90%",
+      secondary: "border-1 bg-grey-300 hover:bg-grey-700 text-black-300 font-semibold",
+      primary: "text-white font-semibold bg-gradient-to-r 135deg from-prime-300 via-prime-200 via-23.95% via-prime-500 via-69.11% to-purple-500",
     },
     size: {
-      sm: "text-sm px-1 py-0",
-      md: "text-base px-2 py-1",
-      lg: "text-xl px-4 py-2",
+      sm: "text-sm px-1 py-0 rounded-md",
+      md: "text-base px-6 py-2",
+      lg: "text-xl px-6 py-2",
     },
   },
   defaultVariants: {

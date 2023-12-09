@@ -5,7 +5,7 @@ export default function Hero() {
   return (
     <div
       style={{backgroundImage: `url(${landing})`}} 
-      className='bg-[image:var(backgroundImage)] bg-no-repeat w-full h-[100vh]'>
+      className='flex items-center justify-center  bg-[image:var(backgroundImage)] bg-no-repeat bg-center w-full h-[100vh]'>
        
     </div>
   )
