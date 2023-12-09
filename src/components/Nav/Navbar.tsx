@@ -15,7 +15,7 @@ const [toggleMenu, setToggleMenu] = useState(false);
     <nav className=" ">
       <div className="z-50 fixed sm:w-full lg:w-[84vw] lg:mx-32">
         <div className=" flex justify-between items-center h-16 lg:border rounded-2xl bg-transparent backdrop-blur-lg bg-opacity-30 ">
-          {/* Primary menu and logo */}
+          {/* menu logo */}
           <div className="flex items-center gap-16 my-12">
             {/* logo */}
             <div>
