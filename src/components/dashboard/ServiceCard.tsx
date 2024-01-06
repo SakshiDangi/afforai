@@ -1,4 +1,3 @@
-import React from 'react'
 import Service from '../ui/service';
 import { BiCheck } from 'react-icons/bi';
 import './animate.css'
@@ -17,4 +16,5 @@ export default function ServiceCard() {
       ))}    
     </div>
   )
+  
 }

@@ -1,7 +1,9 @@
-import React from 'react'
 import Navbar from '../components/Nav/Navbar'
 import Hero from '../components/hero/Hero'
 import Dashboard from '../components/dashboard/Dashboard'
+import Products from '../components/products/Products'
+import Productivity from '../components/productivity/Productivity'
+import WhyUs from '../components/whyus/WhyUs'
 
 export default function Home() {
   return (
@@ -14,8 +16,14 @@ export default function Home() {
       </div> 
       <div className=''>
         <Hero />
-      </div>   
-      <div className='h-[120vh] bg-red-500'>fasd;j</div>
+      </div>
+      <div>
+        <Products />
+      </div>  
+      <Productivity /> 
+      <div className='h-[120vh] bg-red-500'>
+        <WhyUs />
+      </div>
     </div>
   )
 }

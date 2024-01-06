@@ -1,4 +1,3 @@
-import React from 'react'
 import AppSumo from './AppSumo'
 import ServiceCard from './ServiceCard'
 import Button from '../ui/Button'

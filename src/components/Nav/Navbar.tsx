@@ -1,9 +1,7 @@
 import { useState } from "react";
 import Logo from "../ui/Logo";
 import {
-  PaperAirplaneIcon,
   Bars3Icon,
-  XMarkIcon,
 } from "@heroicons/react/24/outline";
 import Button from "../ui/Button";
 
